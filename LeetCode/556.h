@@ -12,6 +12,7 @@ using namespace std;
   *  @version  : ver 1.0 
  
   *  @author   : Zugzwang
+<<<<<<< HEAD
   *  @date     : 2017/04/11 10:43 
   *  @brief    : Leetcode 556Ìâ Next Greater Element III
 *******************************************************/
@@ -37,7 +38,7 @@ namespace Sansan
 				{
 					curMax = str[idx] - '0';
 					curPos = idx;
-				}
+				} 
 				else
 				{
 					break;
@@ -70,8 +71,6 @@ namespace Sansan
 		}
 
 	};
-
-
 }
 
 #endif // _556_H__
