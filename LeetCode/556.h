@@ -6,29 +6,29 @@
 #include <algorithm>
 using namespace std;
 /*******************************************************
-  *  @Copyright (c) 2017, Zugzwang, All rights reserved. 
+  *  @Copyright (c) 2017, Zugzwang, All rights reserved.
 
-  *  @file     : 556.h 
-  *  @version  : ver 1.0 
- 
+  *  @file     : 556.h
+  *  @version  : ver 1.0
+
   *  @author   : Zugzwang
-<<<<<<< HEAD
-  *  @date     : 2017/04/11 10:43 
-  *  @brief    : Leetcode 556Ìâ Next Greater Element III
+  *  @date     : 2017/04/11 10:43
+  *  @brief    : Leetcode 556ï¿½ï¿½ Next Greater Element III
 *******************************************************/
 namespace Sansan
 {
 	class solution_556
 	{
 	public:
+	public:
         /*
-         *	1¡¢Ê×ÏÈ°Ñn×ª»¯Îª×Ö·û´®
-		    2¡¢´ÓºóÍùÇ°ÕÒµ½µÚÒ»¸ö¿ÉÒÔ±»Ìæ»»µÄ×Ö·û¡£¼´³öÏÖstr[idx] < curMax£¬¼´curPos
-			3¡¢°Ñstr´ÓcurPosÒÔºóµÄÊý×ÖÓÐÐ¡µ½´óÅÅÐò
-			4¡¢°ÑswapPos1Î»ÖÃµÄ×Ö·ûÓëËüÎ»ÖÃÖ®ºóµÄ×Ö·û£¨µÚÒ»¸ö±ÈËü´óµÄ×Ö·û£©½»»»Î»ÖÃ
-		    5¡¢Ô½½ç¼ì²é
+         *	1ã€é¦–å…ˆæŠŠnè½¬åŒ–ä¸ºå­—ç¬¦ä¸²
+		    2ã€ä»ŽåŽå¾€å‰æ‰¾åˆ°ç¬¬ä¸€ä¸ªå¯ä»¥è¢«æ›¿æ¢çš„å­—ç¬¦ã€‚å³å‡ºçŽ°str[idx] < curMaxï¼Œå³curPos
+			3ã€æŠŠsträ»ŽcurPosä»¥åŽçš„æ•°å­—æœ‰å°åˆ°å¤§æŽ’åº
+			4ã€æŠŠswapPos1ä½ç½®çš„å­—ç¬¦ä¸Žå®ƒä½ç½®ä¹‹åŽçš„å­—ç¬¦ï¼ˆç¬¬ä¸€ä¸ªæ¯”å®ƒå¤§çš„å­—ç¬¦ï¼‰äº¤æ¢ä½ç½®
+		    5ã€è¶Šç•Œæ£€æŸ¥
          */
-		int nextGreaterElement(int n) 
+		int nextGreaterElement(int n)
 		{
 			string str = to_string(n);
 			int curPos = str.length()-1,curMax=-1;
@@ -38,7 +38,7 @@ namespace Sansan
 				{
 					curMax = str[idx] - '0';
 					curPos = idx;
-				} 
+				}
 				else
 				{
 					break;
