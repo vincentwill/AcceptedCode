@@ -13,9 +13,14 @@ struct TreeNode
  };
  namespace Sansan
  {
-	 class Solution_542
+	 class Solution_538
 	  {
 	 public:
+         /*
+         1、中序遍历二叉树输出所有数字
+         2、倒序计算数字和
+         3、修改数字和
+          */
 	     TreeNode* convertBST(TreeNode* root)
 	 	 {
 	         stack<TreeNode*>nodeContain;
