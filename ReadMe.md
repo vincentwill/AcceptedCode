@@ -31,6 +31,7 @@
 >>> |[524.Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/?tab=Description)|[524.h](./LeetCode/524.h)| Chirl|
 >>> |[525.Contiguous Array](https://leetcode.com/problems/contiguous-array/?tab=Description)|[525.h](./LeetCode/525.h)| Sansan|
 >>> |[526.Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement/#/description)|[526.h](./LeetCode/526.h)| Sansan|
+>>> |[538.Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree)|[538.h](./LeetCode/538.h)|Sansan、|
 >>> |[552. Student Attendance Record II](https://leetcode.com/problems/student-attendance-record-ii/#/description)|[552.h](./LeetCode/552.h)| Sansan、|
 >>> |[553. Optimal Division](https://leetcode.com/problems/optimal-division/#/description)|[553.h](./LeetCode/553.h)| Sansan、|
 >>> |[554. Brick Wall](https://leetcode.com/problems/brick-wall/#/description)|[554.h](./LeetCode/554.h)| Sansan、|
