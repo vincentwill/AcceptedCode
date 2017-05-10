@@ -36,7 +36,8 @@
 >>> |[553. Optimal Division](https://leetcode.com/problems/optimal-division/#/description)|[553.h](./LeetCode/553.h)| Sansan、|
 >>> |[554. Brick Wall](https://leetcode.com/problems/brick-wall/#/description)|[554.h](./LeetCode/554.h)| Sansan、|
 >>> |[555.Split Assembled Strings](https://leetcode.com/problems/split-assembled-strings)|[555.h](./LeetCode/555.h)| Sansan、|
->>> |[556. Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii/#/description)|[556.h](https://github.com/vincentwill/AcceptedCode/blob/master/LeetCode/556.h)| Sansan、|
+>>> |[556. Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii/#/description)|[556.h](./LeetCode/556.h)| Sansan、|
+>>>|[567. Permutation in String](https://leetcode.com/problems/permutation-in-string/#/description)|[567.h](./LeetCode/567.h)| Sansan、|
 >>>...
 >
 >> `NowCoder`  //牛客网
